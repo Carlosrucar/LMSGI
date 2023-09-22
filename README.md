@@ -17,4 +17,6 @@ En este repositorio vamos a almacenar todos los ejercicos del módulo.
 
  A continuación se muestra un enlace a OBS [Link](https://obsproject.com/es/download/ "Título opcional del enlace").
 
-![image](https://github.com/Carlosrucar/LMSGI1/assets/145746759/ccd61a86-15ca-4490-966c-bf045760f7c4)
+![image](https://github.com/Carlosrucar/LMSGI1/assets/145746759/74c2a97d-6bec-4377-ba3b-af8e1459967f)
+
+
