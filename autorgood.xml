@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula> Mar adentro
+<director> Alejandro Amenabar</director>
+    <actor>
+        <actor papel="protagonista"> Celso Bullogo</actor>
+        
+    </actor>
+    <asunto>
+        Esta es la pelicula del verano
+    </asunto>
+    <texto>
+        <parrafo>Increible pelicula </parrafo> 
+    </texto>
+</pelicula>
