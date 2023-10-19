@@ -1,0 +1,2 @@
+Estos son los ejercicios de la relacion 1.
+1. Observa en Internet el código fuente de varias páginas de fontanería que aparezcanen primeras posiciones con varios buscadores, analiza el uso que hacen delaetiqueta <meta>. Escribe las más apropiadas para una supuesta web llamada“Fontanería ZV”, situada en la calle Primavera, 22 de Granada.
