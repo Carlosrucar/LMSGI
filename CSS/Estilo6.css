@@ -5,16 +5,16 @@ body {
 }
 
 .capa {
-    height: 100vh; 
+    height: 20vh; 
     box-sizing: border-box;
-    display: inline-block;
     vertical-align: top;
-    padding: 20px;
+   
 }
 
 #capa1 {
     width: 50%;
-    border: 2px solid black;
+    border: 2px solid black
+    
 }
 
 #capa2 {
@@ -24,7 +24,7 @@ body {
 }
 
 #capa3 {
-    width: 16%;
+    width: 25%;
     border: 2px solid blue;
     font-size: 80%;
 }
