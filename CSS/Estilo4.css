@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  p {
+    border: 2px solid black;
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .amarillo {
+    background-color: yellow;
+  }
+
+  .gris {
+    background-color: lightgray;
+  }
+
+  .doble-tamano {
+    font-size: 2em;
+  }
