@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    color: navy;
+  }
+
+  h5 {
+    color: red;
+  }
+
+  .noticia {
+   
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
