@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    overflow: hidden; 
+}
+
+.nombre {
+    float: left;
+}
+
+.imagen {
+    float: right;
+}
+
+.columna-izquierda {
+    float: left;
+    width: 66%;  
+    background-color: #FFD700;  
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.columna-derecha {
+    float: left;
+    width: 34%;
+    background-color: #87CEEB;  
+    padding: 18px;
+    box-sizing: border-box;
+     
+}
+
+footer {
+    clear: both;
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
