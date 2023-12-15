@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+p {
+    border: 5px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#parrafo1 {
+    background-color: #ffd700; /* Amarillo */
+    margin: 0;
+    padding: 0;
+}
+
+#parrafo2 {
+    background-color: #87ceeb; /* Azul claro */
+    margin: 5px;
+    padding: 5px;
+}
+
+#parrafo3 {
+    background-color: #90ee90; /* Verde claro */
+    margin: 0;
+    padding: 20px;
+}
