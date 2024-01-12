@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.izquierda {
+    background-color: #a9ff9e;
+    width: 20%;
+    height: 100%;
+}
+
+.derecha {
+    float: right;
+    overflow-y: auto;
+    background-color: #f4fd79;
+    width: 80%;
+    
+}
+
+.scrollable-content {
+    height: 100%;
+    overflow-y: auto;
+    float: right;
+    
+}
+
+
+
+
