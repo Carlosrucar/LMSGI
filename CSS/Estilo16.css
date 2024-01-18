@@ -5,40 +5,22 @@ body {
     padding: 0;
 }
 
-#container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form fieldset {
-    border: 2px solid #ddd;
-    border-radius: 8px;
+#cabecera {
+    overflow: hidden;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
-form legend {
-    font-weight: bold;
+.izquierda {
+    float: left;
 }
 
-form label {
-    display: block;
-    margin-bottom: 8px;
+.derecha {
+    float: right;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea,
-form select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.izquierda,
+.derecha {
+    width: 50%;
     box-sizing: border-box;
 }
 
@@ -51,26 +33,4 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
-form input[type="submit"]:hover {
-    background-color: #45a049;
-}
 
-form input:focus,
-form textarea:focus,
-form select:focus {
-    border-color: #3498db;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
-}
-
-form:hover {
-    cursor: pointer;
-}
-.izquierda {
-    height: 100%;
-    float: left;
-    width: 50%;
-}
-.derecha {
-    float: right;
-    width: 50%;
-}
