@@ -4,7 +4,7 @@ body {
 }
 
 .contenedor {
-    display: flex;
+    
     flex-direction: column;
     height: 100vh;
 }
@@ -20,22 +20,19 @@ header {
     background-color: #a9ff9e;
     width: 20%;
     height: 100%;
+    float: left;
 }
 
 .derecha {
     float: right;
-    overflow-y: auto;
+    overflow-y: scroll;
     background-color: #f4fd79;
     width: 80%;
+    height: 1000px;
+
     
 }
 
-.scrollable-content {
-    height: 100%;
-    overflow-y: auto;
-    float: right;
-    
-}
 
 
 
