@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, serif;
+
+}
+
+header {
+    padding: 30px;
+    background: rgba(255, 127, 80, 0.756);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(255, 150, 74);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background: gold;
+    color: brown;
+
+}
+
+section {
+    background: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+article {
+    
+     
+}
+
+img {
+    border: dashed 1px #555;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+}
+
+#articulo-1 {
+    background-color: darkgoldenrod;
+    width: 33%;
+}
+
+#articulo-2 {
+    background-color: greenyellow;
+    width: 33%;
+}
+
+#articulo-3 {
+    background-color: dodgerblue;
+    width: 33%;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+
+h1 {
+    text-align: center;
+    width: 100%; 
+}
