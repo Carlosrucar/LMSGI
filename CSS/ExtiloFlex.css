@@ -33,14 +33,14 @@ nav a:hover {
 
 section {
     background: bisque;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+   
 }
 
 article {
-    
-     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
 }
 
 img {
@@ -68,7 +68,7 @@ img {
 p {
     text-align: center;
     width: 100%;
-
+}
 h1 {
     text-align: center;
     width: 100%; 

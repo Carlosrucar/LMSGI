@@ -34,7 +34,9 @@ section {
     background: bisque;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+
+    
     
 }
 
@@ -44,7 +46,8 @@ article {
     border: 1px solid #ccc;
     text-align: center;
     width: 30%;
-    
+    height: 400px;
+    width: 550px;
     
 }
 
