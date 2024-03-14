@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Practica.xsd">
+	<datos_personales>
+		<nombre>Carlos</nombre>
+		<apellidos>Rodríguez</apellidos>
+		<fecha_nacimiento>2005-05-19</fecha_nacimiento>
+		<lugar_nacimiento>Granada, España</lugar_nacimiento>
+		<nacionalidad>Española</nacionalidad>
+		<numero_identificacion>77034364G</numero_identificacion>
+		<foto>foto.jpg</foto>
+	</datos_personales>
+    <datos_contacto>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via> Vía</nombre_via>
+            <numero>4</numero>
+            <codigo_postal>18630</codigo_postal>
+            <pais>España</pais>
+            <email>crodrui1905@ieszaidinvergeles.org</email>
+            <telefono_movil>234242552</telefono_movil>
+            <telefono_fijo>912345678</telefono_fijo>
+        </datos_contacto>
+</Curriculum>
