@@ -19,4 +19,60 @@
             <telefono_movil>234242552</telefono_movil>
             <telefono_fijo>912345678</telefono_fijo>
         </datos_contacto>
+        <datos_contacto_adicionales>
+            <pagina_web>www.Carlosrucar.com</pagina_web>
+            <redes_sociales>
+                <red>Instagram</red>
+                <red>Twitter</red>
+            </redes_sociales>
+        </datos_contacto_adicionales>
+        <formacion_academica>
+            <estudio>
+                <nombre>Grado en Ingeniería Informática</nombre>
+                <lugar>IES Zaidin Vergeles</lugar>
+                <fecha_inicio>2023</fecha_inicio>
+                <fecha_fin>2024</fecha_fin>
+            </estudio>
+            <estudio>
+                <nombre>Bachillerato</nombre>
+                <lugar>Granada</lugar>
+                <fecha_inicio>2021</fecha_inicio>
+                <fecha_fin>2023</fecha_fin>
+            </estudio>
+        </formacion_academica>
+        <idiomas>
+            <idioma>
+                <nombre>Inglés</nombre>
+                <nivel_expresion_oral></nivel_expresion_oral>
+                <nivel_comprension_oral></nivel_comprension_oral>
+                <nivel_expresion_escrita></nivel_expresion_escrita>
+                <nivel_comprension_escrita></nivel_comprension_escrita>
+                <titulo_acreditativo></titulo_acreditativo>
+                <nivel_titulo></nivel_titulo>
+            </idioma>
+        </idiomas>
+        <experiencia_laboral>
+            <experiencia>
+                <lugar></lugar>
+                <puesto></puesto>
+                <fecha_inicio></fecha_inicio>
+                <fecha_fin></fecha_fin>
+            </experiencia>
+        </experiencia_laboral>
+        <competencias_socio_profesionales>
+            <competencia>
+                <nombre>Liderazgo</nombre>
+                <nivel>Avanzado</nivel>
+            </competencia>
+            <competencia>
+                <nombre>Trabajo en equipo</nombre>
+                <nivel>Experto</nivel>
+            </competencia>
+        </competencias_socio_profesionales>
+        <datos_adicionales>
+            <aficiones>Dibujo</aficiones>
+            <disponibilidad_viajar>Sí</disponibilidad_viajar>
+            <vehiculo_propio>Sí</vehiculo_propio>
+            <permisos_conducir>B</permisos_conducir>
+        </datos_adicionales>
 </Curriculum>
