@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<complexType name="Contacto">
+		<sequence>
+			<element name="tipo_via" type="xs:string" />
+			<element name="nombre_via" type="xs:string" />
+			<element name="numero" type="xs:positiveInteger" minOccurs="0" />
+			<element name="codigo_postal" type="CodigoPostal" />
+			<element name="pais" type="xs:string" />
+			<element name="email" type="Email" />
+			<element name="telefono_movil" type="Telefono" />
+			<element name="telefono_fijo" type="Telefono" minOccurs="0" />
+		</sequence>
+	</complexType>
+	<complexType name="Idioma">
+		<sequence>
+			<element name="nombre" type="xs:string" />
+			<element name="nivel_expresion_oral" type="NivelIdioma" minOccurs="0" />
+			<element name="nivel_comprension_oral" type="NivelIdioma" minOccurs="0" />
+			<element name="nivel_expresion_escrita" type="NivelIdioma" minOccurs="0" />
+			<element name="nivel_comprension_escrita" type="NivelIdioma" minOccurs="0" />
+			<element name="titulo_acreditativo" type="xs:string" minOccurs="0" />
+			<element name="nivel_titulo" type="NivelTituloIdioma" minOccurs="0" />
+		</sequence>
+	</complexType>
+    <complexType name="Experiencia">
+        <sequence>
+            <element name="lugar" type="xs:string" />
+            <element name="puesto" type="xs:string" />
+            <element name="fecha_inicio" type="xs:gYearMonth" />
+            <element name="fecha_fin" type="xs:gYearMonth" minOccurs="0" />
+        </sequence>
+    </complexType>
+   
 
-</xs:schema>
+
+</schema>
