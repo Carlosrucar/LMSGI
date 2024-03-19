@@ -170,7 +170,41 @@
             <xs:enumeration value="Experto"/>
         </xs:restriction>
     </xs:simpleType>
-
-
-    
+    <xs:simpleType name="nivelIdiomaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="A1"/>
+            <xs:enumeration value="A2"/>
+            <xs:enumeration value="B1"/>
+            <xs:enumeration value="B2"/>
+            <xs:enumeration value="C1"/>
+            <xs:enumeration value="C2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nivelCompetenciaType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="5" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nivelDisponibilidadType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Sí"/>
+            <xs:enumeration value="No"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nivelVehiculoType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Sí"/>
+            <xs:enumeration value="No"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nivelPermisoType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="A"/>
+            <xs:enumeration value="B"/>
+            <xs:enumeration value="C"/>
+            <xs:enumeration value="D"/>
+            <xs:enumeration value="E"/>
+        </xs:restriction>
+    </xs:simpleType>
 </schema>
