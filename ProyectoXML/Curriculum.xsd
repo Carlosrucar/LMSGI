@@ -142,4 +142,35 @@
             <xs:pattern value="\d{9}"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="nieType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[XYZ]\d{7}[A-Z]" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="pasaporteType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}\d{7}" />
+        </xs:restriction>
+    </xs:simpleType>
+   <xs:simpleType name="telefonoFijoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="telefonoMovilType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nivelType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Básico"/>
+            <xs:enumeration value="Intermedio"/>
+            <xs:enumeration value="Avanzado"/>
+            <xs:enumeration value="Experto"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    
 </schema>
