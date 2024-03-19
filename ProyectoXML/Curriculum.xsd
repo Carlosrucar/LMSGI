@@ -127,4 +127,19 @@
             <xs:pattern value="\d{8}[A-HJ-NP-TV-Z]"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="codigoPostalType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w+@\w+\.\w+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="telefonoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
 </schema>
