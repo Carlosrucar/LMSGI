@@ -79,7 +79,52 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-	
-
-
+                <xs:element name="experiencia_laboral">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experiencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="lugar" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="puesto" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="fecha_inicio" type="xs:gYearMonth" minOccurs="0"/>
+                                        <xs:element name="fecha_fin" type="xs:gYearMonth" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="competencias_socio_profesionales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="competencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="nivel" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos_adicionales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="aficiones" type="xs:string"/>
+                            <xs:element name="disponibilidad_viajar" type="xs:string"/>
+                            <xs:element name="vehiculo_propio" type="xs:string"/>
+                            <xs:element name="permisos_conducir" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="nifType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}[A-HJ-NP-TV-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
 </schema>
