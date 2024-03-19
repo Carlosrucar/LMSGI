@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<complexType name="Contacto">
-		<sequence>
-			<element name="tipo_via" type="xs:string" />
-			<element name="nombre_via" type="xs:string" />
-			<element name="numero" type="xs:positiveInteger" minOccurs="0" />
-			<element name="codigo_postal" type="CodigoPostal" />
-			<element name="pais" type="xs:string" />
-			<element name="email" type="Email" />
-			<element name="telefono_movil" type="Telefono" />
-			<element name="telefono_fijo" type="Telefono" minOccurs="0" />
-		</sequence>
-	</complexType>
-	<complexType name="Idioma">
-		<sequence>
-			<element name="nombre" type="xs:string" />
-			<element name="nivel_expresion_oral" type="NivelIdioma" minOccurs="0" />
-			<element name="nivel_comprension_oral" type="NivelIdioma" minOccurs="0" />
-			<element name="nivel_expresion_escrita" type="NivelIdioma" minOccurs="0" />
-			<element name="nivel_comprension_escrita" type="NivelIdioma" minOccurs="0" />
-			<element name="titulo_acreditativo" type="xs:string" minOccurs="0" />
-			<element name="nivel_titulo" type="NivelTituloIdioma" minOccurs="0" />
-		</sequence>
-	</complexType>
-    <complexType name="Experiencia">
-        <sequence>
-            <element name="lugar" type="xs:string" />
-            <element name="puesto" type="xs:string" />
-            <element name="fecha_inicio" type="xs:gYearMonth" />
-            <element name="fecha_fin" type="xs:gYearMonth" minOccurs="0" />
-        </sequence>
-    </complexType>
-   
+<xs:element name="Curriculum">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="datos_personales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellidos" type="xs:string"/>
+                            <xs:element name="fecha_nacimiento" type="xs:date"/>
+                            <xs:element name="lugar_nacimiento" type="xs:string"/>
+                            <xs:element name="nacionalidad" type="xs:string"/>
+                            <xs:element name="numero_identificacion" type="nifType"/>
+                            <xs:element name="foto" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos_contacto">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipo_via" type="xs:string"/>
+                            <xs:element name="nombre_via" type="xs:string"/>
+                            <xs:element name="numero" type="xs:positiveInteger" minOccurs="0"/>
+                            <xs:element name="codigo_postal" type="codigoPostalType"/>
+                            <xs:element name="pais" type="xs:string"/>
+                            <xs:element name="email" type="emailType"/>
+                            <xs:element name="telefono_movil" type="telefonoType"/>
+                            <xs:element name="telefono_fijo" type="telefonoType" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="datos_contacto_adicionales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="pagina_web" type="xs:string"/>
+                            <xs:element name="redes_sociales">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="red" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="formacion_academica">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="estudio" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="lugar" type="xs:string"/>
+                                        <xs:element name="fecha_inicio" type="xs:gYearMonth"/>
+                                        <xs:element name="fecha_fin" type="xs:gYearMonth" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="idiomas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="idioma" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="nivel_expresion_oral" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="nivel_comprension_oral" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="nivel_expresion_escrita" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="nivel_comprension_escrita" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="titulo_acreditativo" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="nivel_titulo" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+	
 
 
 </schema>
